@@ -3,8 +3,9 @@ micronaut:
     name: demo
 datasources:
   default:
-    url: jdbc:mysql://localhost:3306/db
+    url: jdbc:mysql://localhost:3306/condominio?useTimezone=true&serverTimezone=UTC
+
     driverClassName: com.mysql.cj.jdbc.Driver
     username: root
-    password: ''
+    password: 'mysql'
 jpa.default.properties.hibernate.hbm2ddl.auto: update

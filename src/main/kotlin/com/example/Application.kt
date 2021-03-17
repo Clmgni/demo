@@ -6,5 +6,6 @@ fun main(args: Array<String>) {
 	    .args(*args)
 		.packages("com.example")
 		.start()
+	println("Hello World!!!")
 }
 
